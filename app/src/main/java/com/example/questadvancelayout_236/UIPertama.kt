@@ -41,13 +41,19 @@ fun ActivitasPertama(modifier: Modifier) {
             Text(text = stringResource(id = R.string.univ),
                 fontSize = 22.sp)
             Spacer(modifier = Modifier.height(height = 25.dp))
-            Card (modifier = Modifier
-                .fillMaxWidth(fraction = if)
+            Card (modifier = Modifier.fillMaxWidth(fraction = 1f)
                 .padding(all = 12.dp),
-                colors = CardDefaults.cardColors(
-                    containerColor = Color.Blue
-                )) {
+                colors = CardDefaults.cardColors(containerColor = Color.Blue))
+                {
+                Row (){
+                    val gambar = painterResource(id = R.drawable.logo_umy)
+                    Image(
+                        painter = gambar,
+                        contentDescription = null,
+                        modifier = Modifier.size(size = 100.dp).padding(alt = 5.dp)
+                    )
 
+                }
                 }
         }
 }
