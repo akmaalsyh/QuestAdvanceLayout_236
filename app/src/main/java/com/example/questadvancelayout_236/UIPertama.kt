@@ -80,33 +80,33 @@ fun ActivitasPertama(modifier: Modifier) {
         )
         {
             Row() {
-                    val gambar = painterResource(id = R.drawable.logo_umy)
-                    Image(
-                        painter = gambar,
-                        contentDescription = null,
-                        modifier = Modifier.size(size = 100.dp).padding(all = 5.dp)
+                val gambar = painterResource(id = R.drawable.logo_umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(size = 100.dp).padding(all = 5.dp)
+                )
+                Spacer(modifier = Modifier.width(width = 30.dp))
+                Column() {
+                    Text(
+                        text = stringResource(id = R.string.nama2),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 10.dp)
                     )
-                    Spacer(modifier = Modifier.width(width = 30.dp))
-                    Column() {
-                        Text(
-                            text = stringResource(id = R.string.nama2),
-                            fontSize = 20.sp,
-                            color = Color.White,
-                            modifier = Modifier.padding(top = 10.dp)
-                        )
-                        Text(
-                            text = stringResource(id = R.string.alamat2),
-                            fontSize = 20.sp,
-                            color = Color.White,
-                            modifier = Modifier.padding(top = 10.dp)
-                        )
-                        Text(
-                            text = stringResource(id = R.string.no_telp2),
-                            fontSize = 20.sp,
-                            color = Color.White,
-                            modifier = Modifier.padding(top = 10.dp)
-                        )
-                    }
+                    Text(
+                        text = stringResource(id = R.string.alamat2),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.no_telp2),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                }
 
             }
         }
@@ -128,6 +128,18 @@ fun ActivitasPertama(modifier: Modifier) {
                 Column() {
                     Text(
                         text = stringResource(id = R.string.nama3),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.alamat3),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.no_telp3),
                         fontSize = 20.sp,
                         color = Color.White,
                         modifier = Modifier.padding(top = 10.dp)
