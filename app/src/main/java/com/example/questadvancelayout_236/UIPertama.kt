@@ -21,6 +21,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -91,19 +92,22 @@ fun ActivitasPertama(modifier: Modifier) {
                     Text(
                         text = stringResource(id = R.string.nama2),
                         fontSize = 20.sp,
+                        fontFamily = FontFamily.SansSerif,
                         color = Color.White,
                         modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
                         text = stringResource(id = R.string.alamat2),
                         fontSize = 20.sp,
-                        color = Color.White,
+                        fontFamily = FontFamily.SansSerif,
+                        color = Color.Cyan,
                         modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
                         text = stringResource(id = R.string.no_telp2),
                         fontSize = 20.sp,
-                        color = Color.White,
+                        fontFamily = FontFamily.SansSerif,
+                        color = Color.LightGray,
                         modifier = Modifier.padding(top = 10.dp)
                     )
                 }
@@ -129,19 +133,20 @@ fun ActivitasPertama(modifier: Modifier) {
                     Text(
                         text = stringResource(id = R.string.nama3),
                         fontSize = 20.sp,
-                        color = Color.Black,
+                        fontFamily = FontFamily.SansSerif,
+                        color = Color.White,
                         modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
                         text = stringResource(id = R.string.alamat3),
                         fontSize = 20.sp,
-                        color = Color.Black,
+                        color = Color.Cyan,
                         modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
                         text = stringResource(id = R.string.no_telp3),
                         fontSize = 20.sp,
-                        color = Color.Black,
+                        color = Color.LightGray,
                         modifier = Modifier.padding(top = 10.dp)
                     )
                 }
