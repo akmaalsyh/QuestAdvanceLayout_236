@@ -129,19 +129,19 @@ fun ActivitasPertama(modifier: Modifier) {
                     Text(
                         text = stringResource(id = R.string.nama3),
                         fontSize = 20.sp,
-                        color = Color.White,
+                        color = Color.Black,
                         modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
                         text = stringResource(id = R.string.alamat3),
                         fontSize = 20.sp,
-                        color = Color.White,
+                        color = Color.Black,
                         modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
                         text = stringResource(id = R.string.no_telp3),
                         fontSize = 20.sp,
-                        color = Color.White,
+                        color = Color.Black,
                         modifier = Modifier.padding(top = 10.dp)
                     )
                 }
