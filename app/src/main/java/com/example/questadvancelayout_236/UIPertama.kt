@@ -79,7 +79,24 @@ fun ActivitasPertama(modifier: Modifier) {
             colors = CardDefaults.cardColors(containerColor = Color.Blue)
         )
         {
+            Spacer(modifier = Modifier.height(height = 5.dp))
+            Card(
+                modifier = Modifier.fillMaxWidth(fraction = 1f)
+                    .padding(all = 8.dp),
+                colors = CardDefaults.cardColors(containerColor = Color.Blue)
+            )
+            {
+                Row() {
+                    val gambar = painterResource(id = R.drawable.logo_umy)
+                    Image(
+                        painter = gambar,
+                        contentDescription = null,
+                        modifier = Modifier.size(size = 100.dp).padding(all = 5.dp)
+                    )
+                    Spacer(modifier = Modifier.width(width = 30.dp))
 
+                }
+            }
         }
         Spacer(modifier = Modifier.height(height = 15.dp))
         Box(
